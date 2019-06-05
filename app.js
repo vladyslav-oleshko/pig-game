@@ -46,7 +46,7 @@ document.getElementsByClassName('btn-roll')[0].addEventListener('click', () => {
         const dice = Math.floor(Math.random() * 6) + 1;
 
         diceDOM.style.display = 'block';
-        diceDOM.src = `dice-${dice}.png`;
+        diceDOM.src = `images/dice-${dice}.png`;
 
         if (dice !== 1) {
             roundScore += dice;
